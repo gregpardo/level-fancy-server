@@ -2,7 +2,7 @@
 //Uses multilevel for handling multiple client connections over tcp:
 //https://github.com/juliangruber/multilevel
 module.exports = {
-  port:97892
+  port:5000
   ,name:'level fancy server'
   ,manifest:'/data/config/fancy-manifest.json'
   ,database:'/data/database'    //location of database folder
